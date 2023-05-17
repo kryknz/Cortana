@@ -10,13 +10,13 @@ global.email = 'it.gascom@gmail.com'
 global.github = 'https://github.com/GasComIT/Secktor-Md'
 global.location = 'Nakuru NVS'
 global.gurl = 'https://instagram.com/arctixbots' // add your username
-global.sudo = process.env.SUDO || '254718241545'
-global.devs = '254718241545';
+global.sudo = process.env.SUDO || '254778218614'
+global.devs = '254778218614';
 global.website = 'https://github.com/GasComIT/Ultron'
 global.THUMB_IMAGE = process.env.THUMB_IMAGE || 'https://raw.githubusercontent.com/SecktorBot/Brandimages/main/logos/SocialLogo%201.png'
 module.exports = {
   botname: process.env.BOT_NAME || 'Ultron',
-  ownername:process.env.OWNER_NAME || 'GasComIT',
+  ownername:process.env.OWNER_NAME || 'Benson',
   sessionName: process.env.SESSION_ID || 'PUT-HERE',
   author: process.env.PACK_INFO.split(";")[0] || 'author', 
   auto_read_status : process.env.AUTO_READ_STATUS || 'false',
@@ -35,7 +35,7 @@ module.exports = {
   BRANCH: 'main',
   ALIVE_MESSAGE: process.env.ALIVE_MESSAGE || '',
   OPENAI_API_KEY: process.env.OPENAI_API_KEY || 'put-key-here',
-  VERSION: process.env.VERSION === undefined ? 'v.0.0.5' : process.env.VERSION,
+  VERSION: process.env.VERSION === undefined ? 'v.1.0.5' : process.env.VERSION,
   LANG: process.env.THEME|| 'SECKTOR',
   WORKTYPE: process.env.WORKTYPE === undefined ? 'public' : process.env.WORKTYPE
 };
